@@ -99,18 +99,18 @@ void PrintCard(int card, int suit)
 }
 void PrintResult(int card1, int suit1, int card2, int suit2) {
     if (card1 == 1 && card2 != 1) {
-        printf("Íæ¼ÒÒ»»ñÊ¤");
+        printf("ç©å®¶ä¸€è·èƒœ");
     }
 
     else if (card2 ==1 && card1 != 1) {
-        printf("Íæ¼Ò¶ş»ñÊ¤");
+        printf("ç©å®¶äºŒè·èƒœ);
     }
     else if (card1 ==  card2 ) {
         if (suit1 < suit2) {
-            printf("Íæ¼ÒÒ»»ñÊ¤");
+            printf("ç©å®¶ä¸€è·èƒœ");
         }
         else if (suit2 < suit1) {
-            printf("Íæ¼Ò¶ş»ñÊ¤");
+            printf("ç©å®¶äºŒè·èƒœ");
         }
         else if (suit1 == suit2) {
             suit1 = rand() % 4;
@@ -126,10 +126,10 @@ void PrintResult(int card1, int suit1, int card2, int suit2) {
        
     }
     else if (card1 > card2&&card1!=1&&card2!=1) {
-        printf("Íæ¼ÒÒ»»ñÊ¤");
+        printf("ç©å®¶ä¸€è·èƒœ");
     }
     else if(card2 > card1 && card1!= 1 && card2 != 1) {
-        printf("Íæ¼Ò¶ş»ñÊ¤");
+        printf("ç©å®¶äºŒè·èƒœ");
     }
           
 }
